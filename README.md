@@ -13,7 +13,7 @@
 **Access the App here:** [scholargraphai.streamlit.app](https://scholargraphai.streamlit.app)
 
 ## Demo Link
-
+[![ScholarGraph Demo](https://img.youtube.com/vi/0JbsiVpIXmk/0.jpg)](https://youtu.be/0JbsiVpIXmk)
 
 ## Problem Statement
 
