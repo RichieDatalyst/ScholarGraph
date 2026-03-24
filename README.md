@@ -9,6 +9,12 @@
 
 ---
 
+## Live Demo
+**Access the App here:** [scholargraphai.streamlit.app](https://scholargraphai.streamlit.app)
+
+## Demo Link
+
+
 ## Problem Statement
 
 Scientific research is advancing rapidly, but technical papers remain inaccessible to non-experts due to specialized jargon and complex structures. ScholarGraph bridges this gap by acting as a digital "Research Team" that parses, reasons, and simplifies complex scientific documents into personalized insights tailored to the reader's expertise level.
