@@ -1,0 +1,15 @@
+langchain-google-genai==2.0.10
+langgraph==0.2.60
+langchain==0.3.20
+langchain-community==0.3.20
+pymupdf4llm==0.0.17
+faiss-cpu==1.9.0
+qdrant-client==1.12.1         
+streamlit==1.41.1
+fastapi==0.115.6
+uvicorn==0.32.1
+edge-tts==7.0.2
+streamlit-mic-recorder==0.0.8
+python-dotenv==1.0.1
+arxiv==2.1.3                   
+requests==2.32.3
