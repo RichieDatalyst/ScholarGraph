@@ -50,7 +50,7 @@ def _get_embeddings():
         if not api_key:
             raise EnvironmentError("GOOGLE_API_KEY not set in .env")
         return GoogleGenerativeAIEmbeddings(
-            model="models/embedding-001",
+            model="BAAI/bge-small-en-v1.5",
             google_api_key=api_key,
         )
  
