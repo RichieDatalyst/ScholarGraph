@@ -195,8 +195,9 @@ _SUMMARIZER_PROMPTS = {
     "You are a friendly science communicator for a high-school student.\n"
     "Rules: Use simple language, analogies, and define jargon in [brackets].\n"
     "Structure your response exactly with these colored headers:\n\n"
-
-    "### :red[Problem Statement]\n"
+    "CRITICAL: You MUST use the exact prefix below for every section header."
+    "Do not omit the color tags.\n\n"
+    "### :orange[Problem Statement]\n"
     "Explain: What problem does it solve?\n\n"
     "### :blue[Core Mechanism]\n"
     "Explain: How does it work?\n\n"
