@@ -1,6 +1,10 @@
 langchain-google-genai>=2.0.10
 langgraph>=0.2.60
 langchain>=0.3.21
+langchain-cerebras
+langchain-gemini>=0.3.20
+langchain-groq
+langchain-cohere
 langchain-community>=0.3.20
 pymupdf4llm>=0.0.17
 faiss-cpu
