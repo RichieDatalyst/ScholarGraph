@@ -19,3 +19,4 @@ requests>=2.32.3
 pdf2image
 pillow
 sentence-transformers
+reportlab
