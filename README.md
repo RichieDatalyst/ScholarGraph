@@ -1,4 +1,4 @@
-# 🔬 ScholarGraph — Autonomous Multi-Agent Research Assistant
+# 🔬 ScholarGraph —> Autonomous Multi-Agent Research Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2.60-green.svg)](https://langchain-ai.github.io/langgraph/)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Scientific research is advancing rapidly, but technical papers remain inaccessible to non-experts due to specialized jargon and complex structures. ScholarGraph bridges this gap by acting as a digital "Research Team" that parses, reasons, and simplifies complex scientific documents into personalized insights tailored to the reader's expertise level.
 
@@ -84,7 +84,7 @@ PDF Upload
 | **LLM (Primary)** | Google Gemini 2.5 Flash Lite (Free via Google AI Studio) |
 | **LLM (Fallback)** | Groq — Llama 3.3 70B (Free, ~2s response) |
 | **Orchestration** | LangGraph (Multi-agent StateGraph) |
-| **Embeddings** | sentence-transformers all-MiniLM-L6-v2 (Local, FREE) |
+| **Embeddings** | sentence-transformers BAAI/bge-small-en-v1.5 (Local, FREE) |
 | **Vector Store** | FAISS (Local) |
 | **PDF Processing** | PyMuPDF + pymupdf4llm (Markdown extraction) |
 | **Vision LLM** | Gemini 3.1 Flash Lite Preview (Image/chart descriptions) |
@@ -204,7 +204,7 @@ Summarizer → Critic → CLEAR? → Section Summarizer
 
 ### LLM Fallback Chain
 ```
-Gemini 2.0 Flash Lite
+Gemini 2.5 Flash Lite
     ↓ (on 429 quota exhausted)
 Groq Llama 3.3 70B
     ↓ (on failure)
