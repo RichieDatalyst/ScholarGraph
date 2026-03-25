@@ -1,3 +1,4 @@
+google-genai
 langchain-google-genai>=2.0.10
 langgraph>=0.2.60
 langchain>=0.3.21
