@@ -249,4 +249,6 @@ Department of Data Science, FAST-NUCES Lahore
 
 ---
 
+Existing version of project can be seen at: "https://github.com/RichieDatalyst/Adaptive-Scientific-Paper-Summarization-System"
+
 *Built with LangGraph, Streamlit, Gemini, and Groq — entirely on free-tier APIs.*
