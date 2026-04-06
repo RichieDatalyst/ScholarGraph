@@ -1,4 +1,4 @@
-# 🔬 ScholarGraph —> Autonomous Multi-Agent Research Assistant
+# 🔬 ScholarGraph → Autonomous Multi-Agent Research Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2.60-green.svg)](https://langchain-ai.github.io/langgraph/)
@@ -251,4 +251,4 @@ Department of Data Science, FAST-NUCES Lahore
 
 Existing version of project can be seen at: "https://github.com/RichieDatalyst/Adaptive-Scientific-Paper-Summarization-System"
 
-*Built with LangGraph, Streamlit, Gemini, and Groq — entirely on free-tier APIs.*
+*Built with LangGraph, Streamlit, Gemini, and Groq, entirely on free-tier APIs.*
