@@ -70,7 +70,7 @@ PDF Upload
 |---|---|
 | **Adaptive Summaries** | Three expertise levels: Beginner (analogies), Intermediate (balanced), Expert (technical) |
 | **Multi-Agent Pipeline** | LangGraph orchestrates Planner → Researcher → Summarizer → Critic loop |
-| **Hallucination Detection** | Critic agent cross-checks every summary against source — loops until CLEAR |
+| **Hallucination Detection** | Critic agent cross-checks every summary against source → loops until CLEAR |
 | **Section-wise Summaries** | Detects paper structure + extracts 5 guaranteed critical sections |
 | **Quality Evaluation** | LLM-judged Accuracy, Completeness, Clarity + Flesch-Kincaid readability |
 | **Citation Extraction** | Automatically parses reference lists (IEEE, APA, numbered styles) |
@@ -78,7 +78,7 @@ PDF Upload
 | **Conversational RAG** | Chat with your paper using Groq, Gemini, or Cohere |
 | **Voice Synthesis** | Edge-TTS reads summaries aloud (no API key needed) |
 | **PDF Export** | Professional report with evaluation table, sections, and citations |
-| **Zero Embedding Cost** | Local sentence-transformers — no embedding API quota ever consumed |
+| **Zero Embedding Cost** | Local sentence-transformers → no embedding API quota ever consumed |
 | **Smart Fallback** | Gemini → Groq automatic switching on quota exhaustion |
 
 ---
@@ -88,7 +88,7 @@ PDF Upload
 | Component | Technology |
 |---|---|
 | **LLM (Primary)** | Google Gemini 2.5 Flash Lite (Free via Google AI Studio) |
-| **LLM (Fallback)** | Groq — Llama 3.3 70B (Free, ~2s response) |
+| **LLM (Fallback)** | Groq → Llama 3.3 70B (Free, ~2s response) |
 | **Orchestration** | LangGraph (Multi-agent StateGraph) |
 | **Embeddings** | sentence-transformers BAAI/bge-small-en-v1.5 (Local, FREE) |
 | **Vector Store** | FAISS (Local) |
@@ -237,7 +237,7 @@ This project extends and significantly upgrades a previous NLP project on adapti
 
 ## 📝 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License → see [LICENSE](LICENSE) for details.
 
 ---
 
@@ -251,4 +251,4 @@ Department of Data Science, FAST-NUCES Lahore
 
 Existing version of project can be seen at: "https://github.com/RichieDatalyst/Adaptive-Scientific-Paper-Summarization-System"
 
-*Built with LangGraph, Streamlit, Gemini, and Groq, entirely on free-tier APIs.*
+*Built with Claude, LangGraph, Streamlit, Gemini, and Groq, entirely on free-tier APIs.*
