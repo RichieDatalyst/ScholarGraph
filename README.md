@@ -5,7 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.41-red.svg)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> **ScholarGraph** is an autonomous, multi-agent research ecosystem that transforms complex scientific papers into personalized, adaptive insights —> supporting Beginner, Intermediate, and Expert readers with conversational AI, visual analysis, and structured summaries.
+> **ScholarGraph** is an autonomous, multi-agent research ecosystem that transforms complex scientific papers into personalized, adaptive insights supporting Beginner, Intermediate, and Expert readers with conversational AI, visual analysis, and structured summaries.
 
 ---
 
